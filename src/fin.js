@@ -12,7 +12,7 @@ switch (player) {
           }).then((result)=>{
             if (result.isConfirmed){
                 localStorage.removeItem('player')
-                location.replace('../pages/index.html')
+                location.replace('../index.html')
             }
           })
         break;
@@ -27,7 +27,7 @@ switch (player) {
           }).then((result)=>{
             if (result.isConfirmed){
                 localStorage.removeItem('player')
-                location.replace('../pages/index.html')
+                location.replace('../index.html')
             }
           })
         break;
@@ -39,7 +39,7 @@ switch (player) {
           }).then((result)=>{
             if (result.isConfirmed){
                 localStorage.removeItem('player')
-                location.replace('../pages/index.html')
+                location.replace('../index.html')
             }
           })
         break;
