@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Pagina Yaz</title>
+</head>
+<body>
+    <audio id="song" src="../canciones/cancion1.mp3" autoplay="autoplay"></audio>
+    <audio id="effect" src="" autoplay="autoplay"></audio>
+    <div class="flex justify-between items-center text-white text-lg text-center p-4 bg-purple-400">
+        <div class="flex justify-center items-center space-x-3">
+            <div class="rounded-full w-10">
+                <img id="img" class="w-full rounded-full" src="" alt="">
+            </div>
+            <span id="turn" class="font-bold uppercase text-black"></p>
+        </div>
+        <span id="count" class="text-2xl font-bold"></span>
+    </div>
+    <div id="principal-container" class="h-full w-[80%] mx-auto mt-24 max-w-[600px]">
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="../src/index.js"></script>
+</body>
+</html>
