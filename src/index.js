@@ -65,7 +65,7 @@ const selectPlayerTwo = async () => {
                 Swal.fire({
                     title: 'Ohh eres Yazmin!',
                     text: 'Tu eres nuestra reina',
-                    imageUrl: '../imgs/Yazmin.jpeg',
+                    imageUrl: '../imgs/Yazmin.jpg',
                     imageWidth: 200,
                     imageHeight: 300,
                     imageAlt: 'Custom image',
@@ -266,7 +266,7 @@ const validateHealth = (response) => {
                 case 'Yazmin':
                     localStorage.setItem('player','ganoyazmin')
                     effect.src = '../canciones/aplausos.mp3'
-                    alertGif('Yazmin','Para mostrarte que realmente sabemos de tus gustos, queremos otorgarte algo muy especial. ¿Enserio todavia no nos crees que sabemos de vos? Te tiramos la ultima data, tu vino preferido es Numina Bodega Salentein, pero como nos consideramos originales nos vimos obligado a darte algo nuevo para que pruebes del mismo target. PD: CAPAZ QUE SE VUELVE TU FAVORITO EH!!!','../imgs/gifts/Regalo7.png',true)
+                    alertGif('Yazmin','Para mostrarte que realmente sabemos de tus gustos, queremos otorgarte algo muy especial. ¿Enserio todavia no nos crees que sabemos de vos? Te tiramos la ultima data, tu vino preferido es Numina Bodega Salentein, pero como nos consideramos originales nos vimos obligado a darte algo nuevo para que pruebes del mismo target. PD: CAPAZ QUE SE VUELVE TU FAVORITO EH!!!','../imgs/gifts/Regalo7.jpg',true)
                     break;
             }
         }else{
@@ -283,7 +283,7 @@ const validateHealth = (response) => {
                         }else{
                             effect.src = '../canciones/aplausos.mp3'
                             giftsObtained[0] = true
-                            alertGif('Yazmin','La tribu despues de tanta busqueda, pudieron encontrar los gustos indicados para su reina, en esa intensa busqueda lograron hallar la forma de volcar esos gustos en un recipiente!','../imgs/gifts/Regalo2.png')
+                            alertGif('Yazmin','La tribu despues de tanta busqueda, pudieron encontrar los gustos indicados para su reina, en esa intensa busqueda lograron hallar la forma de volcar esos gustos en un recipiente!','../imgs/gifts/Regalo2.jpg')
                         }
                         break;
                     case 3:
@@ -292,7 +292,7 @@ const validateHealth = (response) => {
                         }else{
                             effect.src = '../canciones/aplausos.mp3'
                             giftsObtained[1] = true
-                            alertGif('Yazmin','La tribu sabe perfectamente todo el tiempo que invertis en crecer y mejorar en tu trabajo, por lo tanto decidimos decidio otorgarte algo que mejore tu utilidad en el mismo!','../imgs/gifts/Regalo4.png')
+                            alertGif('Yazmin','La tribu sabe perfectamente todo el tiempo que invertis en crecer y mejorar en tu trabajo, por lo tanto decidimos decidio otorgarte algo que mejore tu utilidad en el mismo!','../imgs/gifts/Regalo4.jpg')
                         }
                         break;
                     case 2:
@@ -301,7 +301,7 @@ const validateHealth = (response) => {
                         }else{
                             effect.src = '../canciones/aplausos.mp3'
                             giftsObtained[2] = true
-                            alertGif('Yazmin','Como te diste cuenta, sabemos de tus gustos musicales, por lo tanto tu proximo obsequio es para que lleves con vos tu playlist de spotify! PD: YAZ LA LISTA NOS ENCANTO!!!','../imgs/gifts/Regalo5.png')
+                            alertGif('Yazmin','Como te diste cuenta, sabemos de tus gustos musicales, por lo tanto tu proximo obsequio es para que lleves con vos tu playlist de spotify! PD: YAZ LA LISTA NOS ENCANTO!!!','../imgs/gifts/Regalo5.jpg')
                         }
                         break;
                     default:
