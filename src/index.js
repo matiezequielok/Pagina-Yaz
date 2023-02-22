@@ -130,7 +130,7 @@ const generateQuestion = (numPlayer) => {
     createQuestion(player.name,player.level)
     const starsContainer = document.createElement('div')
     starsContainer.innerHTML = '<span class="font-bold text-lg text-white uppercase " >Tu mundo: </span>'
-    starsContainer.classList = 'flex w-[85%] mx-auto p-2 bg-purple-400 justify-center space-x-1 items-center text-center mt-10'
+    starsContainer.classList = 'flex w-full mx-auto p-2 bg-purple-400 justify-center space-x-1 items-center text-center mt-10'
     starsContainer.id = 'stars'
     for (let i=1;i<=player.health;i++){
         starsContainer.innerHTML += '<img class="w-6" src="../imgs/estrella.png" alt="">'
