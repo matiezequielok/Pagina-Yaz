@@ -9,6 +9,8 @@ const count = document.getElementById('count')
 const song = document.getElementById('song')
 const effect = document.getElementById('effect')
 
+song.src = '../canciones/cancion1.mp3'
+
 Object.defineProperty(String.prototype, 'capitalize', {
     value: function() {
       return this.charAt(0).toUpperCase() + this.slice(1);

@@ -1,4 +1,7 @@
 const player = localStorage.getItem('player')
+const song = document.getElementById('song')
+
+song.src = '../canciones/fin.mp3'
 
 switch (player) {
     case 'ganoyazmin':
