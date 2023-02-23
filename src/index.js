@@ -1,4 +1,6 @@
 import songs from "../helpers/songs.js"
+import questions from "../helpers/questions.js"
+import randomQuestion from "../helpers/randomQuestion.js"
 
 const players =[]
 const principalContainer = document.getElementById('principal-container')
@@ -84,7 +86,8 @@ const selectPlayerTwo = async () => {
 
 const createQuestion = () => {
     song.src = songs[Math.floor(Math.random() * songs.length)]
-    const question = {title:'¿Que pelicula se trata sobre animales que vienen de otro planeta? ',answers:['Avatar','Toy Story','Nemo','Rey Leon'],correct:'Avatar'}
+
+    const question = randomQuestion()
 
     const div = document.createElement('div')
 
@@ -93,7 +96,7 @@ const createQuestion = () => {
     div.id = 'question'
 
     div.innerHTML = `<div class="bg-white p-8">
-                        <h1 class="font-bold w-full text-center text-lg">${question.title}</h1>
+                        <h1 class="font-bold w-full text-center text-lg">${question.question}</h1>
                     </div>`
 
     question.answers.forEach((answer)=> {

@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "dependencies": {
+    "fs": "*",
+    "underscore": "^1.13.6"
+  },
+  "name": "Pagina-Yaz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matiezequielok/Pagina-Yaz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matiezequielok/Pagina-Yaz/issues"
+  },
+  "homepage": "https://github.com/matiezequielok/Pagina-Yaz#readme",
+  "description": ""
+}
