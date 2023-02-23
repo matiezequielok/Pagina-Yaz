@@ -169,7 +169,7 @@ const removeLife = (numPlayer) => {
 const alertGif = (name,gif,img,final) => {
     if(!final){
         Swal.fire({
-            title: `Regalo de la tribu ${name}landia`,
+            title: `Regalo de la tribu ${name}'vi`,
             text: gif,
             imageUrl: img,
             imageWidth: 400,
@@ -188,7 +188,7 @@ const alertGif = (name,gif,img,final) => {
           })
     }else{
         Swal.fire({
-            title: `Regalo de la tribu ${name}landia`,
+            title: `Regalo de la tribu ${name}'vi`,
             text: gif,
             imageUrl: img,
             imageWidth: 400,
@@ -297,7 +297,7 @@ const validateHealth = (response) => {
                         }else{
                             effect.src = '../canciones/aplausos.mp3'
                             giftsObtained[1] = true
-                            alertGif('Yazmin','La tribu sabe perfectamente todo el tiempo que invertis en crecer y mejorar en tu trabajo, por lo tanto decidimos decidio otorgarte algo que mejore tu utilidad en el mismo!','../imgs/gifts/Regalo4.jpg')
+                            alertGif('Yazmin','La tribu sabe perfectamente todo el tiempo que invertis en crecer y mejorar en tu trabajo, por lo tanto hemos decidido otorgarte algo que mejore tu utilidad en el mismo!','../imgs/gifts/Regalo4.jpg')
                         }
                         break;
                     case 2:
