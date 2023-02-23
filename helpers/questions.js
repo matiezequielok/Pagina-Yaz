@@ -336,6 +336,5 @@ const questions = [
   },
 ];
 
-// https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/mysql/mysql-quiz.md
 
 export default questions
