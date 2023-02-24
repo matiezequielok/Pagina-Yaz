@@ -169,7 +169,7 @@ const removeLife = (numPlayer) => {
 const alertGif = (name,gif,img,final) => {
     if(!final){
         Swal.fire({
-            title: `Regalo de la tribu ${name}'vi`,
+            title: `La tribu ${name}'vi encontro en la estrella un regalo para su Reina!`,
             text: gif,
             imageUrl: img,
             imageWidth: 400,
@@ -188,7 +188,7 @@ const alertGif = (name,gif,img,final) => {
           })
     }else{
         Swal.fire({
-            title: `Regalo de la tribu ${name}'vi`,
+            title: `La tribu ${name}'vi encontro en la estrella un regalo para su Reina!`,
             text: gif,
             imageUrl: img,
             imageWidth: 400,
@@ -286,7 +286,6 @@ const validateHealth = (response) => {
                         if(giftsObtained[0]){
                             alertQuestion(response)
                         }else{
-                            effect.src = '../canciones/aplausos.mp3'
                             giftsObtained[0] = true
                             Swal.fire({
                                 icon:'error',
@@ -296,6 +295,7 @@ const validateHealth = (response) => {
                             }
                               ).then((result)=>{
                                 if (result.isConfirmed){
+                                    effect.src = '../canciones/aplausos.mp3'
                                     alertGif('Yazmin','La tribu despues de tanta busqueda, pudieron encontrar los gustos indicados para su reina, en esa intensa busqueda lograron hallar la forma de volcar esos gustos en un recipiente!','../imgs/gifts/Regalo2.jpg')
                                 }
                             })
@@ -306,7 +306,6 @@ const validateHealth = (response) => {
                         if(giftsObtained[1]){
                             alertQuestion(response)
                         }else{
-                            effect.src = '../canciones/aplausos.mp3'
                             giftsObtained[1] = true
                             Swal.fire({
                                 icon:'error',
@@ -316,6 +315,7 @@ const validateHealth = (response) => {
                             }
                               ).then((result)=>{
                                 if (result.isConfirmed){
+                                    effect.src = '../canciones/aplausos.mp3'
                                     alertGif('Yazmin','La tribu sabe perfectamente todo el tiempo que invertis en crecer y mejorar en tu trabajo, por lo tanto hemos decidido otorgarte algo que mejore tu utilidad en el mismo!','../imgs/gifts/Regalo4.jpg')
                                 }
                             })
@@ -325,7 +325,6 @@ const validateHealth = (response) => {
                         if(giftsObtained[2]){
                             alertQuestion(response)
                         }else{
-                            effect.src = '../canciones/aplausos.mp3'
                             giftsObtained[2] = true
                             Swal.fire({
                                 icon:'error',
@@ -335,6 +334,7 @@ const validateHealth = (response) => {
                             }
                               ).then((result)=>{
                                 if (result.isConfirmed){
+                                    effect.src = '../canciones/aplausos.mp3'
                                     alertGif('Yazmin','Como te diste cuenta, sabemos de tus gustos musicales, por lo tanto tu proximo obsequio es para que lleves con vos tu playlist de spotify! PD: YAZ LA LISTA NOS ENCANTO!!!','../imgs/gifts/Regalo5.jpg')
                                 }
                             })
