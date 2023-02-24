@@ -288,7 +288,18 @@ const validateHealth = (response) => {
                         }else{
                             effect.src = '../canciones/aplausos.mp3'
                             giftsObtained[0] = true
-                            alertGif('Yazmin','La tribu despues de tanta busqueda, pudieron encontrar los gustos indicados para su reina, en esa intensa busqueda lograron hallar la forma de volcar esos gustos en un recipiente!','../imgs/gifts/Regalo2.jpg')
+                            Swal.fire({
+                                icon:'error',
+                                title: `Ohh Matias, has perdido una estrella muy importante de tu mundo!`,
+                                text: "No supiste defenderte del ataque de la tribu Yazmin'vi!",
+                                confirmButtonText: 'Descubrir Estrella'
+                            }
+                              ).then((result)=>{
+                                if (result.isConfirmed){
+                                    alertGif('Yazmin','La tribu despues de tanta busqueda, pudieron encontrar los gustos indicados para su reina, en esa intensa busqueda lograron hallar la forma de volcar esos gustos en un recipiente!','../imgs/gifts/Regalo2.jpg')
+                                }
+                            })
+                
                         }
                         break;
                     case 3:
@@ -297,7 +308,17 @@ const validateHealth = (response) => {
                         }else{
                             effect.src = '../canciones/aplausos.mp3'
                             giftsObtained[1] = true
-                            alertGif('Yazmin','La tribu sabe perfectamente todo el tiempo que invertis en crecer y mejorar en tu trabajo, por lo tanto hemos decidido otorgarte algo que mejore tu utilidad en el mismo!','../imgs/gifts/Regalo4.jpg')
+                            Swal.fire({
+                                icon:'error',
+                                title: `Ohh Matias, has perdido una estrella muy importante de tu mundo!`,
+                                text: "No supiste defenderte del ataque de la tribu Yazmin'vi!",
+                                confirmButtonText: 'Descubrir Estrella'
+                            }
+                              ).then((result)=>{
+                                if (result.isConfirmed){
+                                    alertGif('Yazmin','La tribu sabe perfectamente todo el tiempo que invertis en crecer y mejorar en tu trabajo, por lo tanto hemos decidido otorgarte algo que mejore tu utilidad en el mismo!','../imgs/gifts/Regalo4.jpg')
+                                }
+                            })
                         }
                         break;
                     case 2:
@@ -306,7 +327,17 @@ const validateHealth = (response) => {
                         }else{
                             effect.src = '../canciones/aplausos.mp3'
                             giftsObtained[2] = true
-                            alertGif('Yazmin','Como te diste cuenta, sabemos de tus gustos musicales, por lo tanto tu proximo obsequio es para que lleves con vos tu playlist de spotify! PD: YAZ LA LISTA NOS ENCANTO!!!','../imgs/gifts/Regalo5.jpg')
+                            Swal.fire({
+                                icon:'error',
+                                title: `Ohh Matias, has perdido una estrella muy importante de tu mundo!`,
+                                text: "No supiste defenderte del ataque de la tribu Yazmin'vi!",
+                                confirmButtonText: 'Descubrir Estrella'
+                            }
+                              ).then((result)=>{
+                                if (result.isConfirmed){
+                                    alertGif('Yazmin','Como te diste cuenta, sabemos de tus gustos musicales, por lo tanto tu proximo obsequio es para que lleves con vos tu playlist de spotify! PD: YAZ LA LISTA NOS ENCANTO!!!','../imgs/gifts/Regalo5.jpg')
+                                }
+                            })
                         }
                         break;
                     default:
